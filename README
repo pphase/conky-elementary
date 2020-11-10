@@ -1,0 +1,15 @@
+# Conky-Minimalism
+A Simple Conky config
+
+**Requires:**
+  * Conky with lua support | [APT] $sudo apt install conky-all
+  * lm-sensors | [APT] $sudo apt install lm-sensors
+
+## Installation
+  1. Extract the zip file
+  2. Create folder ~/.conky/
+  3. Move Conky-Minimalism-Elementary folder to ~/.conky/
+  4. Move .conkyrc to ~/ folder (home folder)
+  5. Add conky to autostart
+
+Note: If Core temps are not displayed correctly, see line 291 in clocks.lua
